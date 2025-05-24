@@ -1,0 +1,50 @@
+[
+  {
+    "label": "Compile",
+    "command": "./compile.sh \"${fileDirname}\"",
+    "group": "build",
+    "presentation": {
+      "echo": true,
+      "reveal": "always",
+      "focus": false,
+      "panel": "shared"
+    }
+  },
+  {
+    "label": "Test",
+    "command": "./test.sh \"${fileDirname}\"",
+    "group": "test",
+    "presentation": {
+      "echo": true,
+      "reveal": "always",
+      "focus": false,
+      "panel": "shared"
+    },
+    "dependsOn": ["Compile"]
+  },
+  {
+    "label": "Submit",
+    "command": "./submit.sh \"${fileDirname}\"",
+    "group": "build",
+    "presentation": {
+      "echo": true,
+      "reveal": "always",
+      "focus": false,
+      "panel": "shared"
+    }
+  },
+  {
+    "label": "Quick Test",
+    "command": "g++ -DLOCAL -std=c++17 -O2 -o solution solution.cpp && ./solution && cat output.txt",
+    "group": "test",
+    "presentation": {
+      "echo": true,
+      "reveal": "always",
+      "focus": false,
+      "panel": "shared"
+    },
+    "options": {
+      "cwd": "${fileDirname}"
+    }
+  }
+]
