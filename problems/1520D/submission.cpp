@@ -1,9 +1,3 @@
-#include <algorithm>
-#include <bitset>
-#include <climits>
-#include <cmath>
-#include <fstream>
-#include <iomanip>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -23,21 +17,31 @@
 #define mxe(v) *max_element(v.begin(), v.end()) // find max element in vector
 #define mne(v) *min_element(v.begin(), v.end()) // find min element in vector
 #define unq(v) v.resize(distance(v.begin(), unique(v.begin(), v.end())));
-// make sure to sort before applying unique // else only consecutive duplicates
-// would be removed
+// make sure to sort before applying unique
+// else only consecutive duplicates would be removed
 #define bin(x, y) bitset<y>(x)
 using namespace std;
 int MOD = 1e9 + 7; // Hardcoded, directly change from here for functions!
 
-// ================================== DEBUG MODE
-// ==================================
+// =========== DEBUG MODE =============================
+#ifdef LOCAL
+#define debug(x) cerr << #x << " = " << x << endl
+#define debugv(v)                                                                                                                                                                                      \
+  cerr << #v << " = ";                                                                                                                                                                                 \
+  for (auto x : v) cerr << x << " ";                                                                                                                                                                   \
+  cerr << endl
+#define debugp(p) cerr << #p << " = (" << p.first << ", " << p.second << ")" << endl
+#else
+#define debug(x)
+#define debugv(v)
+#define debugp(p)
+#endif
 // ================================================================================
 
 void modadd(int &a, int b) { a = ((a % MOD) + (b % MOD)) % MOD; }
 void modsub(int &a, int b) { a = ((a % MOD) - (b % MOD) + MOD) % MOD; }
 void modmul(int &a, int b) { a = ((a % MOD) * (b % MOD)) % MOD; }
-// ================================== take ip/op like vector,pairs
-// directly!==================================
+// ========== take ip/op like vector,pairs directly! ===========================
 template <typename typC, typename typD> istream &operator>>(istream &cin, pair<typC, typD> &a) { return cin >> a.first >> a.second; }
 template <typename typC> istream &operator>>(istream &cin, vector<typC> &a) {
   for (auto &x : a) cin >> x;
@@ -55,8 +59,7 @@ template <typename typC> ostream &operator<<(ostream &cout, const vector<typC> &
   for (int i = 1; i < n; i++) cout << ' ' << a[i];
   return cout;
 }
-// ===================================END Of the input module
-// ==========================================
+// ========== END Of the input module ================================
 
 void solve() {
   int n = 1, m = 0;
