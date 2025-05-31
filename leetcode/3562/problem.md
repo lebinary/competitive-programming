@@ -1,4 +1,5 @@
-3562. Maximum Profit from Trading Stocks with Discounts
+## 3562. Maximum Profit from Trading Stocks with Discounts
+
 You are given an integer n, representing the number of employees in a company. Each employee is assigned a unique ID from 1 to n, and employee 1 is the CEO. You are given two 1-based integer arrays, present and future, each of length n, where:
 
 present[i] represents the current price at which the ith employee can buy a stock today.
