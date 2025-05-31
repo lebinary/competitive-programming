@@ -9,8 +9,7 @@ public:
   vector<int> future;
   vector<vector<vector<int>>> memo;
 
-  int maxProfit(int n, vector<int> &present, vector<int> &future,
-                vector<vector<int>> &hierarchy, int budget) {
+  int maxProfit(int n, vector<int> &present, vector<int> &future, vector<vector<int>> &hierarchy, int budget) {
     // 0/1 knapsack problem with graph traversal
     this->present = present;
     this->future = future;
@@ -29,10 +28,8 @@ public:
 
 private:
   int goNode(int node, int budget, bool parentBought) {
-    if (budget <= 0)
-      return 0;
-    if (memo[node][budget][parentBought] != -1)
-      return memo[node][budget][parentBought];
+    if (budget <= 0) return 0;
+    if (memo[node][budget][parentBought] != -1) return memo[node][budget][parentBought];
 
     int best = 0;
 
@@ -51,8 +48,7 @@ private:
   }
 
   int goChildren(int node, int budget, bool parentBought) {
-    if (budget <= 0 || graph[node].empty())
-      return 0;
+    if (budget <= 0 || graph[node].empty()) return 0;
 
     vector<int> dp(budget + 1, 0);
     for (int child : graph[node]) {

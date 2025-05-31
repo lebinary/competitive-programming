@@ -26,13 +26,11 @@ int MOD = 1e9 + 7; // Hardcoded, directly change from here for functions!
 // =========== DEBUG MODE =============================
 #ifdef LOCAL
 #define debug(x) cerr << #x << " = " << x << endl
-#define debugv(v)                                                              \
-  cerr << #v << " = ";                                                         \
-  for (auto x : v)                                                             \
-    cerr << x << " ";                                                          \
+#define debugv(v)                                                                                                                                                                                      \
+  cerr << #v << " = ";                                                                                                                                                                                 \
+  for (auto x : v) cerr << x << " ";                                                                                                                                                                   \
   cerr << endl
-#define debugp(p)                                                              \
-  cerr << #p << " = (" << p.first << ", " << p.second << ")" << endl
+#define debugp(p) cerr << #p << " = (" << p.first << ", " << p.second << ")" << endl
 #else
 #define debug(x)
 #define debugv(v)
@@ -44,33 +42,21 @@ void modadd(int &a, int b) { a = ((a % MOD) + (b % MOD)) % MOD; }
 void modsub(int &a, int b) { a = ((a % MOD) - (b % MOD) + MOD) % MOD; }
 void modmul(int &a, int b) { a = ((a % MOD) * (b % MOD)) % MOD; }
 // ========== take ip/op like vector,pairs directly! ===========================
-template <typename typC, typename typD>
-istream &operator>>(istream &cin, pair<typC, typD> &a) {
-  return cin >> a.first >> a.second;
-}
+template <typename typC, typename typD> istream &operator>>(istream &cin, pair<typC, typD> &a) { return cin >> a.first >> a.second; }
 template <typename typC> istream &operator>>(istream &cin, vector<typC> &a) {
-  for (auto &x : a)
-    cin >> x;
+  for (auto &x : a) cin >> x;
   return cin;
 }
-template <typename typC, typename typD>
-ostream &operator<<(ostream &cout, const pair<typC, typD> &a) {
-  return cout << a.first << ' ' << a.second;
-}
-template <typename typC, typename typD>
-ostream &operator<<(ostream &cout, const vector<pair<typC, typD> > &a) {
-  for (auto &x : a)
-    cout << x << '\n';
+template <typename typC, typename typD> ostream &operator<<(ostream &cout, const pair<typC, typD> &a) { return cout << a.first << ' ' << a.second; }
+template <typename typC, typename typD> ostream &operator<<(ostream &cout, const vector<pair<typC, typD>> &a) {
+  for (auto &x : a) cout << x << '\n';
   return cout;
 }
-template <typename typC>
-ostream &operator<<(ostream &cout, const vector<typC> &a) {
+template <typename typC> ostream &operator<<(ostream &cout, const vector<typC> &a) {
   int n = a.size();
-  if (!n)
-    return cout;
+  if (!n) return cout;
   cout << a[0];
-  for (int i = 1; i < n; i++)
-    cout << ' ' << a[i];
+  for (int i = 1; i < n; i++) cout << ' ' << a[i];
   return cout;
 }
 // ========== END Of the input module ================================

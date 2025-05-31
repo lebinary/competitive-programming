@@ -20,10 +20,9 @@ public:
 
         // Try removing each consecutive pair
         for (int k = i + 1; k < j; k++) {
-          if (isConsec(s[i], s[k]) &&
-              dp[i + 1][k] == "") { // second cond to check if the space between
-                                    // s[i] and s[k] can be removed
-            res = min(res, dp[k + 1][j]); // removed s[i-k] left with dp[k+1, j]
+          if (isConsec(s[i], s[k]) && dp[i + 1][k] == "") { // second cond to check if the space between
+                                                            // s[i] and s[k] can be removed
+            res = min(res, dp[k + 1][j]);                   // removed s[i-k] left with dp[k+1, j]
           }
         }
 

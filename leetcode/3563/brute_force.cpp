@@ -22,8 +22,7 @@ private:
   // O(2 ^ 250)
   void dfs(int i, string &s) {
     if (i >= s.size()) {
-      if (curr < res)
-        res = curr;
+      if (curr < res) res = curr;
       return;
     }
 
