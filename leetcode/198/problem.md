@@ -15,3 +15,11 @@ Input: nums = [2,7,9,3,1]
 Output: 12
 Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (money = 1).
 Total amount you can rob = 2 + 9 + 1 = 12.
+
+**Thought process**:
+This is DP, identify this problem as one of the categories below before continuing.
+0/1 Knapsack **--> this one**
+Unbounded Knapsack
+Shortest Path (eg: Unique Paths I/II)
+Fibonacci Sequence (eg: House Thief, Jump Game)
+Longest Common Substring/Subsequeunce
