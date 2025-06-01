@@ -20,3 +20,11 @@ Explanation: There are 5 ways to assign symbols to make the sum of nums be targe
 Example 2:
 Input: nums = [1], target = 1
 Output: 1
+
+**Thought process**:
+This is DP, identify this problem as one of the categories below before continuing.
+0/1 Knapsack **--> this one**
+Unbounded Knapsack
+Shortest Path (eg: Unique Paths I/II)
+Fibonacci Sequence (eg: House Thief, Jump Game)
+Longest Common Substring/Subsequeunce
