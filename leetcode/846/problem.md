@@ -15,8 +15,18 @@ For some 1 <= k <= 6, there is exactly one lowercase and one uppercase letter of
 
 Return the lowest number of moves to acquire all keys. If it is impossible, return -1.
 
+**Constraints:**
+m == grid.length
+n == grid[i].length
+1 <= m, n <= 30
+grid[i][j] is either an English letter, '.', '#', or '@'.
+There is exactly one '@' in the grid.
+The number of keys in the grid is in the range [1, 6].
+Each key in the grid is unique.
+Each key in the grid has a matching lock.
+
 **Thoughts**
 - There are many paths to get all keys -> O(!k)
 - Traveling salesman problem -> NP-hard
 - Can revisit a cell, as long as the `keys` state is different
-- Small constraint: m * n * 2^k <= 30 * 30 * 2^6 = 57600 -> bitmask
+- Small constraint: roughly estimate O(m * n * k) ~ 2400
