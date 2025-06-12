@@ -34,4 +34,5 @@ Output: [1]
   2. clean up the heap, make sure elements that are not in the window is also not on top of the heap
   3. pop out the max, store it
   4. repeat
+  => O(nlogn) closer to O(n) if we do it lazily
 - Similar problem: 3578
