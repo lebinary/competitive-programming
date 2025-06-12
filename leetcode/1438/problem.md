@@ -1,6 +1,6 @@
 ## 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 
-Given an array of integers nums and an integer limit, return the size of the longest non-empty subarray such that the absolute difference between any two elements of this subarray is less than or equal to limit.
+Given an array of integers `nums` and an integer `limit`, return the size of the longest non-empty subarray such that the absolute difference between any two elements of this subarray is less than or equal to limit.
 
 **Example 1:**
 Input: nums = [8,2,4,7], limit = 4
@@ -31,3 +31,14 @@ Output: 3
 1 <= nums.length <= 105
 1 <= nums[i] <= 109
 0 <= limit <= 109
+
+**Thoughts**
+
+- Get the vibes of `contribution problem`, "how much each `num` contributed to the final candidate solutions"
+  For example nums = [8, 2, 4, 7]
+  - `8` contributed once, [8]
+  - `2` contributed twice, [2] and [2, 4]
+  - `4` contributed twice, [4] and [4, 7]
+  - `7` contributed once, [7]
+- Bruteforce: for each `num`, go backward and try to figure out "Which valid subarrays has maximum length ending at `num`?" => O(n^2)
+- Optimized: instead of looping backwward, we can use 2 heaps (max and min) and a left pointer to get the valid subarray in O(logn) making overall complexity O(n^2)
