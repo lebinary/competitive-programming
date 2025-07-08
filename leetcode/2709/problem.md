@@ -21,3 +21,11 @@ Output: false
 **Constraints:**
 1 <= nums.length <= 100,000
 1 <= nums[i] <= 100,000
+
+
+**Thoughts:**
+- Naive approach: build undirected graph, traverse through the graph => O(n^2) + O(V + E)
+- Optimized approach:
+  - Key insights: ANY positive integer > 1 can be broken down to prime numbers
+  - For each number, check if their respective prime factors INTERSECT. If yes, merge.
+  => O(n^2 * logn)
