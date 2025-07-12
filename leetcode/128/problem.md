@@ -18,3 +18,7 @@ Output: 7
 **Constraints:**
 0 <= nums.length <= 1000
 -10^9 <= nums[i] <= 10^9
+
+**Thoughts:**
+- Keep a set, find the "starting point"
+- Once found the "starting point", start counting upward for as long as possible
