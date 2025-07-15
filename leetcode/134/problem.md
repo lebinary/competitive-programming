@@ -35,11 +35,14 @@ n == gas.length == cost.length
 0 <= gas[i], cost[i] <= 10^4
 The input is generated such that the answer is unique.
 
-
 **Thougths:**
 - Large constraint => Cannot bruteforce
-- Pseudo:
+- Attempt 1: LTE
   - For each starting position, run a routine
   - routine(i, tank):
     - if see i again -> return i.
-    - if tank < 0 -> return -1.
+    - if tank < cost[i] -> return -1.
+- Attempt 2: Greedy (eliminate impossible solutions)
+  - Insight: Since exist a unique solution, we can try eliminate impossible solutions as much as possible
+  - Given a range [l, r], if the tank ever dropped below this range, then `l` is not the starting point.
+    -> repeatedly apply this through out the whole array. If by the end, the total gas > total cost, then return `l`.
