@@ -1,15 +1,18 @@
 // Zed settings
 {
+  // Disable autosuggestions/completions
+  "show_completions_on_input": false,
+  "show_edit_predictions": false,
+
   "agent": {
     "default_profile": "write",
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-3-7-sonnet-latest"
-    },
-    "version": "2"
+    }
   },
   "features": {
-    "edit_prediction_provider": "zed"
+    "edit_prediction_provider": "none"
   },
   "ui_font_size": 13,
   "buffer_font_size": 12.0,
@@ -18,51 +21,9 @@
     "light": "One Light",
     "dark": "Solarized Light"
   },
-  "git.autofetch": true,
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "git.suggestSmartCommit": false,
-  "git.confirmSync": false,
-  "terminal.integrated.scrollback": 5000,
 
   // Enable Vim mode
   "vim_mode": true,
-
-  // Key handling for Vim mode
-  "vim.handleKeys": {
-    "<C-a>": false,
-    "<C-e>": false,
-    "<C-f>": false
-  },
-
-  // Additional formatting settings
-  "prettier.tabWidth": 1,
-  "prettier.printWidth": 160,
-  "prettier.useTabs": true,
-
-  // Python specific settings
-  "[python]": {
-    "editor.formatOnType": true
-  },
 
   // Other general settings
   "remove_trailing_whitespace_on_save": true,
@@ -94,8 +55,6 @@
       "extend_comment_on_newline": true,
       "remove_trailing_whitespace_on_save": true,
       "tab_size": 4,
-      "indent_size": 4,
-      "indent_style": "space",
       "code_actions_on_format": {
         "clangd": true
       },
@@ -136,10 +95,5 @@
         }
       }
     }
-  },
-  "jupyter": {
-    "kernel_selections": {
-      "python": "myenv"
-    }
   }
-} 
+}
