@@ -23,3 +23,10 @@ There are no self-loops or repeated edges.
 **Thoughts:**
 - Condition for a valid tree is no connecting edges between branches
 - When do dfs, each node should be visited at most once
+- Unionfind approach:
+  - a graph is a valid tree if:
+    - all nodes are connected
+    - acyclic
+  => Use unionfind to check both condition. Start with each node has its own set, then `union` them using the `edges` array.
+    While `union`, return false immidiately if merging 2 nodes with the same parent (cycle detection)
+    By the end, check if all nodes are connected by checking if the unionfind has only 1 set
