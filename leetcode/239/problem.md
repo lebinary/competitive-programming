@@ -36,3 +36,4 @@ Output: [1]
   4. repeat
   => O(nlogn) closer to O(n) if we do it lazily
 - Similar problem: 3578
+- Differrent approach: problem is "when a better candidates appear, the current one becomes irrelevant" => Monotonic queue/ Stack
