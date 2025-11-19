@@ -21,31 +21,26 @@ struct ListNode {
 class Solution {
   public:
     ListNode *mergeKLists(vector<ListNode *> &lists) {
-        ListNode *merged = nullptr;
+        auto cmp = [](ListNode *a, ListNode *b) { return a->val > b->val; };
+        priority_queue<ListNode *, vector<ListNode *>, decltype(cmp)> minHeap(cmp);
 
-        for (ListNode *list : lists) {
-            merged = merge(merged, list);
+        for (ListNode *node : lists) {
+            if (node == nullptr) continue;
+            minHeap.push(node);
         }
 
-        return merged;
-    }
-
-    ListNode *merge(ListNode *listA, ListNode *listB) {
         ListNode *dummy = new ListNode(0);
         ListNode *curr = dummy;
 
-        while (listA != nullptr && listB != nullptr) {
-            if (listA->val >= listB->val) {
-                curr->next = listB;
-                listB = listB->next;
-            } else {
-                curr->next = listA;
-                listA = listA->next;
-            }
-            curr = curr->next;
-        }
+        while (!minHeap.empty()) {
+            ListNode *minNode = minHeap.top();
+            minHeap.pop();
 
-        curr->next = listA != nullptr ? listA : listB;
+            curr->next = minNode;
+            curr = curr->next;
+
+            if (minNode->next != nullptr) minHeap.push(minNode->next);
+        }
 
         return dummy->next;
     }
