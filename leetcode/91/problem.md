@@ -47,13 +47,9 @@ Explanation:
 s contains only digits and may contain leading zero(s).
 
 **Thoughts:**
-- Small constraint -> can bruteforce
-- Approach: at any given `i` in `s`, do decision trees, with some edge cases
-  - if s[i] == "1", there are at most 2 cases:
-    - decode s[i] and s[i+1] together, if s[i+1] is not empty
-    - decode s[i] and s[i+1] separately
-  - if s[i] == "2", there are at most 2 cases:
-    - decode s[i] and s[i+1] together, if s[i+1] is not empty and s[i+1] <= "6"
-    - decode s[i] and s[i+1] separately
-  - else: move on
-  - Return the number of leaves
+- Valid grouping: 10, 11, 12, 13, .., 19, 20, 21, .., 26
+- Pseudo:
+    At any char of given string, there are 2 options:
+      - decode as is
+      - merge with previous char to form a group
+    The result is the number of branches of the decision tree
