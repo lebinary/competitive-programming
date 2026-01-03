@@ -24,6 +24,7 @@ class Solution {
                 res[i] = false;
                 if (!minHeap.empty()) {
                     auto [val, negIdx] = minHeap.top();
+                    minHeap.pop();
                     res[-1 * negIdx] = false;
                 }
             }
