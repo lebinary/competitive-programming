@@ -10,6 +10,8 @@
 #include <vector>
 using namespace std;
 
+// Time: 30:47 minutes
+// Attempt: 2
 class Solution {
   public:
     string clearStars(string s) {
