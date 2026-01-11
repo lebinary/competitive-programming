@@ -13,20 +13,17 @@ using namespace std;
 class Solution {
   public:
     int longestOnes(vector<int> &nums, int k) {
-        int n = nums.size(), flipCount = 0, best = 0;
-        vector<bool> flipped(n, false);
+        int n = nums.size(), count = 0, best = 0;
 
         int l = 0;
         for (int r = 0; r < n; ++r) {
             if (nums[r] == 0) {
-                if (flipCount == k) {
-                    while (l < r && !flipped[l]) l++;
-                    flipped[l++] = false;
-                    flipCount--;
+                while (count == k) {
+                    if (nums[l] == 0) count--;
+                    l++;
                 }
 
-                flipped[r] = true;
-                flipCount++;
+                count++;
             }
 
             best = max(best, r - l + 1);
