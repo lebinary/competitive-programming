@@ -33,3 +33,21 @@ bSTIterator.hasNext(); // return False
 The number of nodes in the tree is in the range [1, 10^5].
 0 <= Node.val <= 10^6
 At most 10^5 calls will be made to hasNext, and next.
+
+## Thoughts:
+- How to traverse inorder a BST
+  stack={}
+  node = root
+
+  while !stack.empty || node:
+    while node:
+      stack.push(node)
+      node = node.left
+
+    node = stack.pop
+    visit(node)
+    node = node.right
+
+- Split this to Iterator:
+  hasNext(): check if there more value to process => basically if stack is empty
+  next(): the iteration => basically what happen in the body of the while loop
