@@ -1,32 +1,43 @@
-## 864. Shortest Path to Get All Keys
+# 846. Hand of Straights
+Alice has some number of cards and she wants to rearrange the cards into groups so that each group is of size groupSize, and consists of groupSize consecutive cards.
 
-You are given an m x n grid grid where:
+Given an integer array hand where hand[i] is the value written on the ith card and an integer groupSize, return true if she can rearrange the cards, or false otherwise.
 
-'.' is an empty cell.
-'#' is a wall.
-'@' is the starting point.
-Lowercase letters represent keys.
-Uppercase letters represent locks.
-You start at the starting point and one move consists of walking one space in one of the four cardinal directions. You cannot walk outside the grid, or walk into a wall.
+## Example 1:
+Input: hand = [1,2,3,6,2,3,4,7,8], groupSize = 3
+Output: true
+Explanation: Alice's hand can be rearranged as [1,2,3],[2,3,4],[6,7,8]
 
-If you walk over a key, you can pick it up and you cannot walk over a lock unless you have its corresponding key.
+## Example 2:
+Input: hand = [1,2,3,4,5], groupSize = 4
+Output: false
+Explanation: Alice's hand can not be rearranged into groups of 4.
 
-For some 1 <= k <= 6, there is exactly one lowercase and one uppercase letter of the first k letters of the English alphabet in the grid. This means that there is exactly one key for each lock, and one lock for each key; and also that the letters used to represent the keys and locks were chosen in the same order as the English alphabet.
+## Constraints:
+1 <= hand.length <= 10^4
+0 <= hand[i] <= 10^9
+1 <= groupSize <= hand.length
 
-Return the lowest number of moves to acquire all keys. If it is impossible, return -1.
+## Thoughts:
+- Size of `hand` must be multitple of `groupSize`
+- Approach1: sort and keep track of latest largest element in each group
+  example:
+    [1,2,3,6,2,3,4,7,8] -> sorted [1,2,2,3,3,4,6,7,8]
+    groups[{3, 3}, {4, 3}, {8, 3}]
+    Time: O(nlogn) + O(n * (n / groupSize))
+    Space: O(n/groupSize)
+    => slow
 
-**Constraints:**
-m == grid.length
-n == grid[i].length
-1 <= m, n <= 30
-grid[i][j] is either an English letter, '.', '#', or '@'.
-There is exactly one '@' in the grid.
-The number of keys in the grid is in the range [1, 6].
-Each key in the grid is unique.
-Each key in the grid has a matching lock.
+- Approach2: sort and use minHeap to keep track of the groups
+  sorted [1,2,2,3,3,4,6,7,8]
+  minHeap: [{2,2}]
+  minHeap:
+    if top[1] == groupSize: groupCount++ and pop
+    if curr num == top[0] + 1
+      update the top minHeap
+    else:
+      push onto the heap
+  return groupCount == n / groupSize
 
-**Thoughts**
-- There are many paths to get all keys -> O(!k)
-- Traveling salesman problem -> NP-hard
-- Can revisit a cell, as long as the `keys` state is different
-- Small constraint: roughly estimate O(m * n * k) ~ 2400
+  Time: O(nlogn)
+  Space: O(n)
