@@ -29,10 +29,33 @@ s and t consist of uppercase and lowercase English letters.
 **Follow up:** Could you find an algorithm that runs in O(m + n) time?
 
 **Thoughts:**
-- Sliding window approach
-  - create a frequency map for `tCount`. init a frequency map for the window from [0, t.size() - 1], call `sCount`
-  - calculate initial `matches` in `tCount` and `sCount`
-  - start sliding window from t.size() -> s.size():
-    - udpate `sCout` freq, if sCount[s[r]] == tCount[s[r]] => increment `matches`
-    - if at some point `matches` == t.size(): capture a snapshot of the substr.
-      - shrink the window, keep shrinking if (`matches` < t.size() || s[l] not in `tCount`)
+- Sliding window approach:
+  Pseudo:
+  var match = 52, sFreq, tFreq
+
+  for each char in t:
+    increment tFreq[char]
+    check if crossed to the bad side: match--
+
+  l = 0
+  for each char in s:
+    increament sFreq[char]
+    check if crossed to the good side: match++
+
+    while(good):
+      update res
+      decrement sFreq[charLeft]
+      check if crossed to the bad side: match--
+      shrink
+  return res
+
+- The sol2 approach inspired by this problem https://leetcode.com/problems/find-all-anagrams-in-a-string. The only differences here are:
+  - Anagram (equality):
+    Valid when sFreq[c] == tFreq[c] for all chars
+    Expand: match++ when becoming equal, match-- when leaving equal (going over)
+    Shrink: match++ when becoming equal (coming back from over), match-- when leaving equal (going under)
+
+  - Min window (threshold):
+    Valid when sFreq[c] >= tFreq[c] for all chars
+    Expand: match++ when crossing threshold upward, that's it
+    Shrink: match-- when crossing threshold downward, that's it
