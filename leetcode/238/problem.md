@@ -31,3 +31,16 @@ Follow up: Can you solve the problem in O(1) extra space complexity? (The output
   calculate prefix on nums[1:n+1]
   calculate postfix on nums[1:n+1]
   calculate result: res[i] = prefix[i] + postfix[i+2]
+- Approach 2: with O(1) space complexity
+  product
+  zero_count: there are 3 cases: no zero, 1 zero, more than 1 zero
+    no zero: go as usual
+    1 zero: at the index of the zero, return product
+    >1 zero: return 0
+
+  details:
+    first loop, calculate the product, count # of zero
+    second loop, calculate the res, where:
+      > 1 zero count: res[i] = 0
+      no zero: res[i] = product / nums[i]
+      just one zero: if j == i ? product : product / nums[i]
