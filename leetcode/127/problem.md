@@ -31,3 +31,13 @@ All the words in wordList are unique.
 - Pseudo:
   - Build graph => O(m^2 * n)
   - Traverse the graph => O(m + e)
+
+- Approach 2:
+  - Do Bidirectional BFS from `beginWord` and `endWord`
+  - How to check for neighbor?
+    - For each word, loop through each character a-z, check if its in the dict, if yes => neighbor. Complexity: O(26 * m^2) = O(m^2)
+      **Note:** m^2 because of hashing a string takes O(m), but lookup takes o(1)
+  Complexity: O(n x m^2), n: wordList.size , m: wordList[0].size
+      **Note:** in practice, bidirectional BFS is much faster than usual BFS. For example, given branching factor `b` and depth `d`:
+      - Standard BFS: b^d, visited all nodes
+      - Bidirectional BFS: 2*O(b^(d/2))
