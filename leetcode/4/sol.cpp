@@ -20,9 +20,6 @@ public:
       int tot = m + n;
       int l = 0, r = m, med = (tot + 1) / 2;
 
-      int max1 = INT_MIN, max2 = INT_MIN;
-      int min1 = INT_MAX, min2 = INT_MAX;
-
       while(l <= r){
         int m1 = l + (r - l) / 2;
         int m2 = med - m1;
