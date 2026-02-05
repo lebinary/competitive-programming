@@ -41,6 +41,15 @@ class Solution {
         return mask;
     }
 
+    // Generalized hash, pick base as max(possible_values) + 1
+    // int hash(vector<int> vec, int base) {
+    //     int key = 0;
+    //     for (int d = 0; d < vec.size(); ++d) {
+    //         key = key * base + vec[d];
+    //     }
+    //     return key;
+    // }
+
     int getVowelIdx(char c) {
         if (c == 'a') return 0;
         if (c == 'e') return 1;
