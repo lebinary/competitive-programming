@@ -59,8 +59,17 @@ At most 5 * 104 calls will be made to inc, dec, getMaxKey, and getMinKey.
     freqNode->next = niw
     niw->prev = freqNode
 
-
     START = new Node(), END = new Node()
     START.next = END
     END.prev = START
     keyMap[niw] = START
+
+## Questions:
+How much time have I spent, end-to-end? ~2 hours
+What were the trickiest aspects? Where did you lose the most time? - I was going down the path of using 2 heaps (too simple), then tried 4 directions Linked List (which is too complicated)
+What are some lessons/insights I gained from this problem? - doubly-linked list can be used to find max/min quickly O(1)
+What would I do differently if I had extra time? What’s remaining to improve? - Try singly linked-list
+What did I do well? - Able to come up with solution after some hints
+Did you use any hints, if yes, what? (please do not give up and look up the hints quickly. if you do need to look up the hints, only use the ones given on the problem page one by one, and DON'T look at youtube videos or full solutions, until you try really hard) Yes, i did, I read the first few discussions and see "LRU cache"
+How difficult was the problem (1 super trivial, 10 extremely difficult) (answer this question three times separately for a) implementing quickly b) finding the right approach c) overall) probably 8, would not have been able to solve it with without hints
+What's the time & space complexity? TC: O(1), SC: O(n)
