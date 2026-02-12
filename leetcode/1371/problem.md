@@ -31,4 +31,4 @@ s contains only lowercase English letters.
   <=> parity[j] = parity[i-1] since k % 2 can only have values {0, 1} <COND. A>
   Rephrase problem: Find max(j - i + 1) s.t. satisfy <COND. A>
 
-- Learning: xor % 2 is same as prefixSum
+- Learning: xor same as prefixSum % 2
