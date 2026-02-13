@@ -14,33 +14,33 @@ using namespace std;
 class Solution {
   public:
     vector<int> findAnagrams(string s, string p) {
-        int match = 26, n = s.size(), m = p.size();
-        vector<int> res, subS(26, 0), subP(26, 0);
+        int n = s.size(), m = p.size(), match = 26;
+        vector<int> sfreq(26, 0), pfreq(26, 0), res;
 
         for (int i = 0; i < m; ++i) {
-            int j = p[i] - 'a';
-            subP[j]++;
-            if (subS[j] == subP[j] - 1) match--;
+            pfreq[p[i] - 'a']++;
+            if (pfreq[p[i] - 'a'] == sfreq[p[i] - 'a'])
+                match++;
+            else if (pfreq[p[i] - 'a'] - 1 == sfreq[p[i] - 'a'])
+                match--;
         }
 
-        for (int r = 0; r < n; ++r) {
-            int ri = s[r] - 'a';
-            subS[ri]++;
-            if (subS[ri] == subP[ri])
+        for (int i = 0; i < n; ++i) {
+            sfreq[s[i] - 'a']++;
+            if (sfreq[s[i] - 'a'] == pfreq[s[i] - 'a'])
                 match++;
-            else if (subS[ri] - 1 == subP[ri])
+            else if (sfreq[s[i] - 'a'] - 1 == pfreq[s[i] - 'a'])
                 match--;
 
-            int l = r - m;
-            if (l >= 0) {
-                int li = s[l] - 'a';
-                subS[li]--;
-                if (subS[li] == subP[li])
+            if (i >= m) {
+                sfreq[s[i - m] - 'a']--;
+                if (sfreq[s[i - m] - 'a'] == pfreq[s[i - m] - 'a'])
                     match++;
-                else if (subS[li] + 1 == subP[li])
+                else if (sfreq[s[i - m] - 'a'] + 1 == pfreq[s[i - m] - 'a'])
                     match--;
             }
-            if (match == 26) res.push_back(l + 1);
+
+            if (match == 26) res.push_back(i - m + 1);
         }
 
         return res;
