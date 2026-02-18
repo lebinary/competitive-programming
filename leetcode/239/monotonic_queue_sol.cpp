@@ -12,17 +12,30 @@ class Solution {
     vector<int> maxSlidingWindow(vector<int> &nums, int k) {
         int n = nums.size();
         vector<int> res;
-        deque<int> dq; // dq will have 2 propeties: (i1 < i2 < i3 < ...) && (nums[i1] > nums[i2] > nums[i3] > ...)
+        deque<int> dq;
 
         for (int i = 0; i < n; ++i) {
-            if (!dq.empty() && dq.front() < i - k + 1) dq.pop_front();
-
             while (!dq.empty() && nums[dq.back()] < nums[i]) dq.pop_back();
-
             dq.push_back(i);
+
+            if (i >= k && dq.front() == i - k) dq.pop_front();
+
             if (i >= k - 1) res.push_back(nums[dq.front()]);
         }
 
         return res;
     }
 };
+
+/** monotonic queue:
+Two properties:
+- i1 < i2 < ... < in
+- nums[i1] >= nums[i2] >= ... >= nums[in]
+
+[1  3  -1] -3  5  3  6  7   => dq = [1,2]
+1  [3  -1 -3]  5  3  6  7   => dq = [1,2,3]
+1   3 [-1 -3  5]  3  6  7   => dq = [4]
+1  3  -1 [-3  5  3]  6  7   => dq = [4,5]
+1  3  -1 -3  [5  3  6]  7   => dq = [6]
+1  3  -1 -3  5  [3  6  7]   => dq = [7]
+**/
