@@ -32,6 +32,6 @@ class Solution {
         for (int num : nums) {
             if (num <= cand) count++;
         }
-        return count >= (1e10 + 1) / 2;
+        return count >= (n + 1) / 2;
     }
 };
