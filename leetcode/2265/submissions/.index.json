@@ -1,0 +1,9 @@
+{
+  "slug": "count-nodes-equal-to-average-of-subtree",
+  "title": "Count Nodes Equal to Average of Subtree",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:44:23+00:00",
+  "files": {
+    "1959022704": "20260325-155348-ac-cpp.cpp"
+  }
+}

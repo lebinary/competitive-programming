@@ -1,0 +1,17 @@
+{
+  "slug": "search-in-rotated-sorted-array",
+  "title": "Search in Rotated Sorted Array",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:50:44+00:00",
+  "files": {
+    "776118669": "20220817-145911-ac-javascript.js",
+    "849163856": "20221124-145818-ac-javascript.js",
+    "1138491023": "20240106-133906-ac-python.py",
+    "1383194806": "20240908-123525-ac-python3.py",
+    "1388362731": "20240913-041525-ac-python3.py",
+    "1734990024": "20250814-135529-ac-cpp.cpp",
+    "1734994721": "20250814-140015-ac-cpp.cpp",
+    "1925997010": "20260221-055103-ac-cpp.cpp",
+    "1925997274": "20260221-055121-ac-cpp.cpp"
+  }
+}

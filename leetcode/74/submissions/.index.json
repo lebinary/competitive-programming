@@ -1,0 +1,16 @@
+{
+  "slug": "search-a-2d-matrix",
+  "title": "Search a 2D Matrix",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:49:47+00:00",
+  "files": {
+    "773705053": "20220814-191657-ac-javascript.js",
+    "843935730": "20221115-142829-ac-javascript.js",
+    "843936097": "20221115-142918-ac-javascript.js",
+    "1135641307": "20240103-132212-ac-python.py",
+    "1135643352": "20240103-132451-ac-python.py",
+    "1382841175": "20240908-051024-ac-python3.py",
+    "1693190570": "20250710-133415-ac-cpp.cpp",
+    "1936767079": "20260303-135519-ac-cpp.cpp"
+  }
+}

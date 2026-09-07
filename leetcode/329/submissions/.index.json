@@ -1,0 +1,11 @@
+{
+  "slug": "longest-increasing-path-in-a-matrix",
+  "title": "Longest Increasing Path in a Matrix",
+  "difficulty": "Hard",
+  "synced_at": "2026-09-05T13:02:31+00:00",
+  "files": {
+    "1452529675": "20241114-114318-ac-python3.py",
+    "1452546289": "20241114-121124-ac-python3.py",
+    "1710813216": "20250725-095522-ac-cpp.cpp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "find-minimum-in-rotated-sorted-array",
+  "title": "Find Minimum in Rotated Sorted Array",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:56:25+00:00",
+  "files": {
+    "588588495": "20211117-134658-ac-javascript.js",
+    "640424617": "20220213-075205-ac-python.py",
+    "777048622": "20220818-161843-ac-javascript.js",
+    "851752037": "20221129-134415-ac-javascript.js",
+    "1136648240": "20240104-132037-ac-python.py",
+    "1383159120": "20240908-114807-ac-python3.py",
+    "1383197026": "20240908-123822-ac-python3.py",
+    "1400749658": "20240924-135153-ac-python3.py",
+    "1887567072": "20260117-090125-ac-cpp.cpp",
+    "1887567866": "20260117-090228-ac-cpp.cpp"
+  }
+}

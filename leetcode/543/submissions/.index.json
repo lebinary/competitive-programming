@@ -1,0 +1,16 @@
+{
+  "slug": "diameter-of-binary-tree",
+  "title": "Diameter of Binary Tree",
+  "difficulty": "Easy",
+  "synced_at": "2026-09-05T12:40:30+00:00",
+  "files": {
+    "916322787": "20230316-145130-ac-javascript.js",
+    "923016002": "20230327-131855-ac-javascript.js",
+    "923020344": "20230327-132757-ac-javascript.js",
+    "1378999104": "20240904-162846-ac-python3.py",
+    "1379010963": "20240904-163919-ac-python3.py",
+    "1860417080": "20251220-083356-ac-cpp.cpp",
+    "1987197792": "20260424-174611-ac-python3.py",
+    "1987198635": "20260424-174710-ac-cpp.cpp"
+  }
+}

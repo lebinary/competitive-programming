@@ -1,0 +1,10 @@
+{
+  "slug": "minimum-length-of-string-after-deleting-similar-ends",
+  "title": "Minimum Length of String After Deleting Similar Ends",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T13:08:32+00:00",
+  "files": {
+    "1622753598": "20250501-120127-ac-python3.py",
+    "1622755437": "20250501-120434-ac-python3.py"
+  }
+}

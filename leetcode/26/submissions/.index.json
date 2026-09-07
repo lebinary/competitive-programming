@@ -1,0 +1,11 @@
+{
+  "slug": "remove-duplicates-from-sorted-array",
+  "title": "Remove Duplicates from Sorted Array",
+  "difficulty": "Easy",
+  "synced_at": "2026-09-05T13:12:16+00:00",
+  "files": {
+    "547649235": "20210901-060304-ac-csharp.cs",
+    "547649333": "20210901-060319-ac-csharp.cs",
+    "1372096001": "20240829-104410-ac-python.py"
+  }
+}

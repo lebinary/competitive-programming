@@ -1,0 +1,13 @@
+{
+  "slug": "longest-consecutive-sequence",
+  "title": "Longest Consecutive Sequence",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T13:03:12+00:00",
+  "files": {
+    "702144583": "20220518-145816-ac-javascript.js",
+    "829978524": "20221025-135919-ac-javascript.js",
+    "1080343880": "20231021-044051-ac-python.py",
+    "1669334412": "20250619-111141-ac-cpp.cpp",
+    "1669337946": "20250619-111552-ac-cpp.cpp"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "coin-change",
+  "title": "Coin Change",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T13:05:20+00:00",
+  "files": {
+    "1427182374": "20241019-101306-ac-python3.py",
+    "1427198557": "20241019-103702-ac-python3.py",
+    "1651206055": "20250602-015936-ac-cpp.cpp",
+    "1651213626": "20250602-021659-ac-cpp.cpp"
+  }
+}

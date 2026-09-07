@@ -1,0 +1,17 @@
+{
+  "slug": "longest-palindromic-substring",
+  "title": "Longest Palindromic Substring",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:41:59+00:00",
+  "files": {
+    "652528463": "20220303-103322-ac-python.py",
+    "652528693": "20220303-103358-ac-python.py",
+    "1404569394": "20240928-053344-ac-python3.py",
+    "1404581437": "20240928-055012-ac-python3.py",
+    "1404594007": "20240928-060634-ac-python3.py",
+    "1892012564": "20260121-101334-ac-cpp.cpp",
+    "1892079139": "20260121-114232-ac-cpp.cpp",
+    "1892080502": "20260121-114426-ac-cpp.cpp",
+    "1969489204": "20260405-093828-ac-cpp.cpp"
+  }
+}

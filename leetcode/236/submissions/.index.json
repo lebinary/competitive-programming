@@ -1,0 +1,13 @@
+{
+  "slug": "lowest-common-ancestor-of-a-binary-tree",
+  "title": "Lowest Common Ancestor of a Binary Tree",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:40:19+00:00",
+  "files": {
+    "1402942636": "20240926-134108-ac-python3.py",
+    "1402965236": "20240926-140547-ac-python3.py",
+    "1919813782": "20260215-070929-ac-cpp.cpp",
+    "1941863111": "20260308-105013-ac-cpp.cpp",
+    "1987214655": "20260424-180620-ac-python.py"
+  }
+}

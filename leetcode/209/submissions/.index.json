@@ -1,0 +1,14 @@
+{
+  "slug": "minimum-size-subarray-sum",
+  "title": "Minimum Size Subarray Sum",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:43:51+00:00",
+  "files": {
+    "1904174858": "20260201-092823-ac-cpp.cpp",
+    "1904211061": "20260201-101225-ac-cpp.cpp",
+    "1916765511": "20260212-090748-ac-cpp.cpp",
+    "1961225880": "20260327-192853-ac-cpp.cpp",
+    "1961232881": "20260327-194031-ac-cpp.cpp",
+    "1961233899": "20260327-194215-ac-cpp.cpp"
+  }
+}

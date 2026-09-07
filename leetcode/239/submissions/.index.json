@@ -1,0 +1,14 @@
+{
+  "slug": "sliding-window-maximum",
+  "title": "Sliding Window Maximum",
+  "difficulty": "Hard",
+  "synced_at": "2026-09-05T12:51:12+00:00",
+  "files": {
+    "1400547203": "20240924-094025-ac-python3.py",
+    "1400555519": "20240924-095103-ac-python3.py",
+    "1661360640": "20250612-013007-ac-cpp.cpp",
+    "1819493733": "20251103-114211-ac-cpp.cpp",
+    "1819512810": "20251103-121025-ac-cpp.cpp",
+    "1922759811": "20260218-031849-ac-cpp.cpp"
+  }
+}

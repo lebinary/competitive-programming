@@ -1,0 +1,11 @@
+{
+  "slug": "lru-cache",
+  "title": "LRU Cache",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T13:00:58+00:00",
+  "files": {
+    "1385474291": "20240910-143912-ac-python3.py",
+    "1395621124": "20240919-163521-ac-python3.py",
+    "1781184772": "20250924-113531-ac-cpp.cpp"
+  }
+}

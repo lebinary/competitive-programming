@@ -1,0 +1,15 @@
+{
+  "slug": "merge-two-sorted-lists",
+  "title": "Merge Two Sorted Lists",
+  "difficulty": "Easy",
+  "synced_at": "2026-09-05T13:07:43+00:00",
+  "files": {
+    "543369390": "20210824-094103-ac-csharp.cs",
+    "580438627": "20211101-131423-ac-javascript.js",
+    "784730430": "20220827-140933-ac-javascript.js",
+    "808986631": "20220926-123701-ac-javascript.js",
+    "1385276848": "20240910-105456-ac-python3.py",
+    "1385280914": "20240910-110013-ac-python3.py",
+    "1626125647": "20250505-134602-ac-cpp.cpp"
+  }
+}

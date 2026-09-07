@@ -1,0 +1,14 @@
+{
+  "slug": "longest-increasing-subsequence",
+  "title": "Longest Increasing Subsequence",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:55:59+00:00",
+  "files": {
+    "648690041": "20220225-141955-ac-python.py",
+    "1433326576": "20241025-115557-ac-python3.py",
+    "1888675573": "20260118-080051-ac-cpp.cpp",
+    "1888681007": "20260118-080900-ac-cpp.cpp",
+    "1888705589": "20260118-084608-ac-cpp.cpp",
+    "1888707754": "20260118-084922-ac-cpp.cpp"
+  }
+}

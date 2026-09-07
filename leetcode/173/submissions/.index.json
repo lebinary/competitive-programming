@@ -1,0 +1,11 @@
+{
+  "slug": "binary-search-tree-iterator",
+  "title": "Binary Search Tree Iterator",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:40:53+00:00",
+  "files": {
+    "558650003": "20210921-144117-ac-python.py",
+    "1871866799": "20260102-093135-ac-cpp.cpp",
+    "1972350639": "20260408-073608-ac-cpp.cpp"
+  }
+}

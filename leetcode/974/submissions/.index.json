@@ -1,0 +1,12 @@
+{
+  "slug": "subarray-sums-divisible-by-k",
+  "title": "Subarray Sums Divisible by K",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:52:57+00:00",
+  "files": {
+    "560627602": "20210925-071251-ac-python.py",
+    "560677745": "20210925-100424-ac-python.py",
+    "1908167081": "20260204-163700-ac-cpp.cpp",
+    "1908168604": "20260204-163801-ac-cpp.cpp"
+  }
+}

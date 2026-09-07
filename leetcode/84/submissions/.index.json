@@ -1,0 +1,14 @@
+{
+  "slug": "largest-rectangle-in-histogram",
+  "title": "Largest Rectangle in Histogram",
+  "difficulty": "Hard",
+  "synced_at": "2026-09-05T12:45:38+00:00",
+  "files": {
+    "1132236925": "20231230-141019-ac-python.py",
+    "1395516000": "20240919-144715-ac-python3.py",
+    "1397391182": "20240921-123634-ac-python3.py",
+    "1895235699": "20260124-105232-ac-cpp.cpp",
+    "1895296667": "20260124-121426-ac-cpp.cpp",
+    "1954854969": "20260321-151139-ac-cpp.cpp"
+  }
+}

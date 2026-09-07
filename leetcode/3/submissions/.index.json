@@ -1,0 +1,18 @@
+{
+  "slug": "longest-substring-without-repeating-characters",
+  "title": "Longest Substring Without Repeating Characters",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T13:01:30+00:00",
+  "files": {
+    "576147459": "20211024-023548-ac-javascript.js",
+    "650519240": "20220228-105042-ac-python.py",
+    "720372591": "20220612-101729-ac-javascript.js",
+    "832130832": "20221028-152702-ac-javascript.js",
+    "1124281963": "20231220-140023-ac-python.py",
+    "1124290218": "20231220-141231-ac-python.py",
+    "1387847280": "20240912-160221-ac-python3.py",
+    "1387847655": "20240912-160242-ac-python3.py",
+    "1387860543": "20240912-161451-ac-python3.py",
+    "1754446195": "20250831-065026-ac-cpp.cpp"
+  }
+}

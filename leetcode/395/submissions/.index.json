@@ -1,0 +1,9 @@
+{
+  "slug": "longest-substring-with-at-least-k-repeating-characters",
+  "title": "Longest Substring with At Least K Repeating Characters",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:37:11+00:00",
+  "files": {
+    "2079409466": "20260724-094853-ac-cpp.cpp"
+  }
+}

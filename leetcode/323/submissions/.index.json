@@ -1,0 +1,13 @@
+{
+  "slug": "number-of-connected-components-in-an-undirected-graph",
+  "title": "Number of Connected Components in an Undirected Graph",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:59:20+00:00",
+  "files": {
+    "1443383771": "20241105-032839-ac-python3.py",
+    "1443383840": "20241105-032846-ac-python3.py",
+    "1443387407": "20241105-033354-ac-python3.py",
+    "1858136844": "20251217-150238-ac-cpp.cpp",
+    "1858151175": "20251217-152136-ac-cpp.cpp"
+  }
+}

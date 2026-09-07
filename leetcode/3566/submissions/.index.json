@@ -1,0 +1,10 @@
+{
+  "slug": "partition-array-into-two-equal-product-subsets",
+  "title": "Partition Array into Two Equal Product Subsets",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T13:04:55+00:00",
+  "files": {
+    "1651717967": "20250602-133932-ac-cpp.cpp",
+    "1654850061": "20250605-152915-ac-cpp.cpp"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "count-subarrays-with-fixed-bounds",
+  "title": "Count Subarrays With Fixed Bounds",
+  "difficulty": "Hard",
+  "synced_at": "2026-09-05T12:51:18+00:00",
+  "files": {
+    "1883721998": "20260113-105827-ac-cpp.cpp",
+    "1920664890": "20260216-051737-ac-cpp.cpp",
+    "1921658321": "20260217-031141-ac-cpp.cpp"
+  }
+}

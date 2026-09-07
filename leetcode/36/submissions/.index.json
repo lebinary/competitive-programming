@@ -1,0 +1,12 @@
+{
+  "slug": "valid-sudoku",
+  "title": "Valid Sudoku",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:54:58+00:00",
+  "files": {
+    "701505727": "20220517-161101-ac-javascript.js",
+    "826720300": "20221020-162837-ac-javascript.js",
+    "1080330692": "20231021-040955-ac-python.py",
+    "1893133005": "20260122-101222-ac-cpp.cpp"
+  }
+}

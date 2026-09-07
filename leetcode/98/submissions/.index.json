@@ -1,0 +1,15 @@
+{
+  "slug": "validate-binary-search-tree",
+  "title": "Validate Binary Search Tree",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:41:07+00:00",
+  "files": {
+    "927242660": "20230403-141142-ac-javascript.js",
+    "1375019317": "20240901-054305-ac-python.py",
+    "1375025942": "20240901-055043-ac-python.py",
+    "1396060067": "20240920-033541-ac-python3.py",
+    "1858911121": "20251218-124141-ac-cpp.cpp",
+    "1941833386": "20260308-100957-ac-cpp.cpp",
+    "1972317738": "20260408-065119-ac-cpp.cpp"
+  }
+}

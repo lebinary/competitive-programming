@@ -1,0 +1,11 @@
+{
+  "slug": "partition-equal-subset-sum",
+  "title": "Partition Equal Subset Sum",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T13:05:33+00:00",
+  "files": {
+    "1434173700": "20241026-122113-ac-python3.py",
+    "1434211300": "20241026-132328-ac-python3.py",
+    "1650575051": "20250601-093956-ac-cpp.cpp"
+  }
+}

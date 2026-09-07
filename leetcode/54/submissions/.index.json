@@ -1,0 +1,12 @@
+{
+  "slug": "spiral-matrix",
+  "title": "Spiral Matrix",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:56:41+00:00",
+  "files": {
+    "556047577": "20210916-182024-ac-python.py",
+    "556048492": "20210916-182210-ac-python.py",
+    "1641283341": "20250522-140602-ac-cpp.cpp",
+    "1886690600": "20260116-101922-ac-cpp.cpp"
+  }
+}

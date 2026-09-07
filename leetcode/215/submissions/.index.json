@@ -1,0 +1,11 @@
+{
+  "slug": "kth-largest-element-in-an-array",
+  "title": "Kth Largest Element in an Array",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:39:09+00:00",
+  "files": {
+    "1391004898": "20240915-123509-ac-python3.py",
+    "1710831626": "20250725-101246-ac-cpp.cpp",
+    "1991955344": "20260430-163206-ac-python.py"
+  }
+}

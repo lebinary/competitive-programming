@@ -1,0 +1,9 @@
+{
+  "slug": "longest-substring-with-at-most-k-distinct-characters",
+  "title": "Longest Substring with At Most K Distinct Characters",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:52:22+00:00",
+  "files": {
+    "1916788461": "20260212-093050-ac-cpp.cpp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "count-good-nodes-in-binary-tree",
+  "title": "Count Good Nodes in Binary Tree",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T13:02:25+00:00",
+  "files": {
+    "925926776": "20230401-140307-ac-javascript.js",
+    "925930513": "20230401-141113-ac-javascript.js",
+    "1375075025": "20240901-064231-ac-python.py",
+    "1375075184": "20240901-064241-ac-python.py",
+    "1375075636": "20240901-064311-ac-python.py",
+    "1375086071": "20240901-065413-ac-python.py",
+    "1396042633": "20240920-030700-ac-python3.py",
+    "1714473920": "20250728-120306-ac-cpp.cpp",
+    "1714474791": "20250728-120404-ac-cpp.cpp",
+    "1714474847": "20250728-120407-ac-cpp.cpp"
+  }
+}

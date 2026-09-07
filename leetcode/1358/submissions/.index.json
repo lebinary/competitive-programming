@@ -1,0 +1,10 @@
+{
+  "slug": "number-of-substrings-containing-all-three-characters",
+  "title": "Number of Substrings Containing All Three Characters",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:52:02+00:00",
+  "files": {
+    "1916940433": "20260212-124724-ac-cpp.cpp",
+    "1916940571": "20260212-124734-ac-cpp.cpp"
+  }
+}

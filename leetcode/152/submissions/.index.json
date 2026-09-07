@@ -1,0 +1,16 @@
+{
+  "slug": "maximum-product-subarray",
+  "title": "Maximum Product Subarray",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:59:05+00:00",
+  "files": {
+    "585039936": "20211110-144037-ac-javascript.js",
+    "640417049": "20220213-073648-ac-python.py",
+    "640417570": "20220213-073748-ac-python.py",
+    "640417692": "20220213-073804-ac-python.py",
+    "640417750": "20220213-073811-ac-python.py",
+    "1428345690": "20241020-130015-ac-python3.py",
+    "1428358883": "20241020-131754-ac-python3.py",
+    "1859760927": "20251219-122532-ac-cpp.cpp"
+  }
+}

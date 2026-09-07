@@ -1,0 +1,15 @@
+{
+  "slug": "invert-binary-tree",
+  "title": "Invert Binary Tree",
+  "difficulty": "Easy",
+  "synced_at": "2026-09-05T13:12:04+00:00",
+  "files": {
+    "655095264": "20220307-095531-ac-python.py",
+    "655105448": "20220307-102611-ac-python.py",
+    "655106850": "20220307-103025-ac-python.py",
+    "916289202": "20230316-134555-ac-javascript.js",
+    "1374113074": "20240831-115339-ac-python.py",
+    "1374123339": "20240831-120821-ac-python.py",
+    "1374134597": "20240831-122436-ac-python.py"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "count-number-of-homogenous-substrings",
+  "title": "Count Number of Homogenous Substrings",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T13:13:06+00:00",
+  "files": {
+    "561122015": "20210926-052122-ac-python.py",
+    "561122392": "20210926-052217-ac-python.py"
+  }
+}

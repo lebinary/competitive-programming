@@ -1,0 +1,11 @@
+{
+  "slug": "lfu-cache",
+  "title": "LFU Cache",
+  "difficulty": "Hard",
+  "synced_at": "2026-09-05T13:10:12+00:00",
+  "files": {
+    "1397380420": "20240921-122119-ac-python3.py",
+    "1400856227": "20240924-153417-ac-python3.py",
+    "1400865191": "20240924-154238-ac-python3.py"
+  }
+}

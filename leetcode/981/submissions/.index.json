@@ -1,0 +1,15 @@
+{
+  "slug": "time-based-key-value-store",
+  "title": "Time Based Key-Value Store",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:56:12+00:00",
+  "files": {
+    "783116050": "20220825-142209-ac-javascript.js",
+    "783116284": "20220825-142228-ac-javascript.js",
+    "783118699": "20220825-142545-ac-javascript.js",
+    "851760150": "20221129-140151-ac-javascript.js",
+    "1139208295": "20240107-045341-ac-python.py",
+    "1384333298": "20240909-143726-ac-python3.py",
+    "1887585425": "20260117-092603-ac-cpp.cpp"
+  }
+}

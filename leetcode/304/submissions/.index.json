@@ -1,0 +1,10 @@
+{
+  "slug": "range-sum-query-2d-immutable",
+  "title": "Range Sum Query 2D - Immutable",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:52:41+00:00",
+  "files": {
+    "1628296704": "20250508-043207-ac-cpp.cpp",
+    "1909241679": "20260205-151000-ac-cpp.cpp"
+  }
+}

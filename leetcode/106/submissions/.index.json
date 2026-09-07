@@ -1,0 +1,9 @@
+{
+  "slug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+  "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:40:47+00:00",
+  "files": {
+    "1978252061": "20260414-122917-ac-python3.py"
+  }
+}

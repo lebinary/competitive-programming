@@ -1,0 +1,10 @@
+{
+  "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+  "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:59:49+00:00",
+  "files": {
+    "1374182900": "20240831-132947-ac-python.py",
+    "1828469330": "20251113-060744-ac-cpp.cpp"
+  }
+}

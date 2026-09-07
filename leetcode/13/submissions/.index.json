@@ -1,0 +1,12 @@
+{
+  "slug": "roman-to-integer",
+  "title": "Roman to Integer",
+  "difficulty": "Easy",
+  "synced_at": "2026-09-05T13:06:55+00:00",
+  "files": {
+    "545536955": "20210828-102402-ac-csharp.cs",
+    "545537015": "20210828-102412-ac-csharp.cs",
+    "1630966710": "20250511-110050-ac-cpp.cpp",
+    "1630969512": "20250511-110509-ac-cpp.cpp"
+  }
+}

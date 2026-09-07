@@ -1,0 +1,10 @@
+{
+  "slug": "binary-subarrays-with-sum",
+  "title": "Binary Subarrays With Sum",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:51:22+00:00",
+  "files": {
+    "1917826827": "20260213-090051-ac-cpp.cpp",
+    "1921645666": "20260217-024610-ac-cpp.cpp"
+  }
+}

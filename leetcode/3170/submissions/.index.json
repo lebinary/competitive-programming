@@ -1,0 +1,10 @@
+{
+  "slug": "lexicographically-minimum-string-after-removing-stars",
+  "title": "Lexicographically Minimum String After Removing Stars",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:39:04+00:00",
+  "files": {
+    "1872936848": "20260103-100409-ac-cpp.cpp",
+    "1991969704": "20260430-165053-ac-python.py"
+  }
+}

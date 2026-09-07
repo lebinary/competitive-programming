@@ -1,0 +1,14 @@
+{
+  "slug": "k-closest-points-to-origin",
+  "title": "K Closest Points to Origin",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:47:48+00:00",
+  "files": {
+    "1392269190": "20240916-160345-ac-python3.py",
+    "1392273238": "20240916-160729-ac-python3.py",
+    "1899605001": "20260128-093054-ac-cpp.cpp",
+    "1899663393": "20260128-103754-ac-cpp.cpp",
+    "1945024365": "20260311-133007-ac-cpp.cpp",
+    "1945039634": "20260311-134656-ac-cpp.cpp"
+  }
+}

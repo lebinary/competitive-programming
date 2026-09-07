@@ -1,0 +1,10 @@
+{
+  "slug": "partition-to-k-equal-sum-subsets",
+  "title": "Partition to K Equal Sum Subsets",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T13:07:04+00:00",
+  "files": {
+    "1630923813": "20250511-095430-ac-cpp.cpp",
+    "1630924973": "20250511-095628-ac-cpp.cpp"
+  }
+}

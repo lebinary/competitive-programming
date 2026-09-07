@@ -1,0 +1,11 @@
+{
+  "slug": "minimum-number-of-operations-to-move-all-balls-to-each-box",
+  "title": "Minimum Number of Operations to Move All Balls to Each Box",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T13:08:19+00:00",
+  "files": {
+    "1624320292": "20250503-104547-ac-python3.py",
+    "1624327578": "20250503-105743-ac-python3.py",
+    "1624338590": "20250503-111554-ac-python3.py"
+  }
+}

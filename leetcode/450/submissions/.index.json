@@ -1,0 +1,10 @@
+{
+  "slug": "delete-node-in-a-bst",
+  "title": "Delete Node in a BST",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T13:10:01+00:00",
+  "files": {
+    "1405923378": "20240929-091144-ac-python3.py",
+    "1405945543": "20240929-094359-ac-python3.py"
+  }
+}

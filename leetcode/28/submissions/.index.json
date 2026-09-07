@@ -1,0 +1,10 @@
+{
+  "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+  "title": "Find the Index of the First Occurrence in a String",
+  "difficulty": "Easy",
+  "synced_at": "2026-09-05T13:13:30+00:00",
+  "files": {
+    "548938674": "20210903-161740-ac-csharp.cs",
+    "548938815": "20210903-161759-ac-csharp.cs"
+  }
+}

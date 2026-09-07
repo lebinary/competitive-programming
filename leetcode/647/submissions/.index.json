@@ -1,0 +1,13 @@
+{
+  "slug": "palindromic-substrings",
+  "title": "Palindromic Substrings",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T13:02:12+00:00",
+  "files": {
+    "652534863": "20220303-105227-ac-python.py",
+    "1404750510": "20240928-095738-ac-python3.py",
+    "1404754870": "20240928-100425-ac-python3.py",
+    "1714591900": "20250728-135530-ac-cpp.cpp",
+    "1714595755": "20250728-135834-ac-cpp.cpp"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "minimum-window-substring",
+  "title": "Minimum Window Substring",
+  "difficulty": "Hard",
+  "synced_at": "2026-09-05T12:54:51+00:00",
+  "files": {
+    "1125931652": "20231222-145453-ac-python.py",
+    "1395444078": "20240919-132658-ac-python3.py",
+    "1400629288": "20240924-112733-ac-python3.py",
+    "1697634962": "20250714-145514-ac-cpp.cpp",
+    "1893234760": "20260122-123141-ac-cpp.cpp"
+  }
+}

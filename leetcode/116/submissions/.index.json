@@ -1,0 +1,10 @@
+{
+  "slug": "populating-next-right-pointers-in-each-node",
+  "title": "Populating Next Right Pointers in Each Node",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:40:01+00:00",
+  "files": {
+    "1987526568": "20260425-071341-ac-python3.py",
+    "1987528234": "20260425-071628-ac-python3.py"
+  }
+}

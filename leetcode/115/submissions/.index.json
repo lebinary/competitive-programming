@@ -1,0 +1,12 @@
+{
+  "slug": "distinct-subsequences",
+  "title": "Distinct Subsequences",
+  "difficulty": "Hard",
+  "synced_at": "2026-09-05T12:53:23+00:00",
+  "files": {
+    "1454224829": "20241116-102153-ac-python3.py",
+    "1454235005": "20241116-103933-ac-python3.py",
+    "1902732506": "20260131-072000-ac-cpp.cpp",
+    "1902752261": "20260131-074417-ac-cpp.cpp"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "minimum-number-of-flips-to-make-the-binary-string-alternating",
+  "title": "Minimum Number of Flips to Make the Binary String Alternating",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:46:20+00:00",
+  "files": {
+    "1951046900": "20260317-114442-ac-cpp.cpp",
+    "1951065465": "20260317-121443-ac-cpp.cpp"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "kth-smallest-element-in-a-bst",
+  "title": "Kth Smallest Element in a BST",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:40:44+00:00",
+  "files": {
+    "931312786": "20230410-141650-ac-javascript.js",
+    "931318266": "20230410-142648-ac-javascript.js",
+    "1374325355": "20240831-151549-ac-python.py",
+    "1868471971": "20251229-135807-ac-cpp.cpp",
+    "1868478748": "20251229-140627-ac-cpp.cpp",
+    "1978296720": "20260414-132858-ac-python3.py",
+    "1978296879": "20260414-132911-ac-python3.py",
+    "1978297335": "20260414-132947-ac-cpp.cpp"
+  }
+}

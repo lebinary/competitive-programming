@@ -1,0 +1,10 @@
+{
+  "slug": "second-highest-salary",
+  "title": "Second Highest Salary",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:42:55+00:00",
+  "files": {
+    "1963828357": "20260330-125948-ac-mysql.sql",
+    "1963837510": "20260330-131102-ac-mysql.sql"
+  }
+}

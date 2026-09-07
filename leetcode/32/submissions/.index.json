@@ -1,0 +1,12 @@
+{
+  "slug": "longest-valid-parentheses",
+  "title": "Longest Valid Parentheses",
+  "difficulty": "Hard",
+  "synced_at": "2026-09-05T12:42:19+00:00",
+  "files": {
+    "1947800816": "20260314-101931-ac-cpp.cpp",
+    "1947898195": "20260314-124530-ac-cpp.cpp",
+    "1966649362": "20260402-091022-ac-cpp.cpp",
+    "1966650637": "20260402-091200-ac-cpp.cpp"
+  }
+}

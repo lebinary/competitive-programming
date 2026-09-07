@@ -1,0 +1,14 @@
+{
+  "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+  "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:36:44+00:00",
+  "files": {
+    "1661785103": "20250612-100938-ac-cpp.cpp",
+    "1661785257": "20250612-100948-ac-cpp.cpp",
+    "2088736380": "20260731-112920-ac-python3.py",
+    "2088744700": "20260731-113945-ac-python3.py",
+    "2088745119": "20260731-114016-ac-python3.py",
+    "2088756977": "20260731-115506-ac-cpp.cpp"
+  }
+}

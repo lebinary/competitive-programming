@@ -1,0 +1,19 @@
+{
+  "slug": "maximum-depth-of-binary-tree",
+  "title": "Maximum Depth of Binary Tree",
+  "difficulty": "Easy",
+  "synced_at": "2026-09-05T12:41:31+00:00",
+  "files": {
+    "584496458": "20211109-140408-ac-javascript.js",
+    "653547833": "20220305-033240-ac-python.py",
+    "653547923": "20220305-033256-ac-python.py",
+    "653547997": "20220305-033308-ac-python.py",
+    "916293917": "20230316-135526-ac-javascript.js",
+    "916295275": "20230316-135813-ac-javascript.js",
+    "916307151": "20230316-142132-ac-javascript.js",
+    "1378933549": "20240904-152459-ac-python3.py",
+    "1378937039": "20240904-152843-ac-python3.py",
+    "1378952236": "20240904-154402-ac-python3.py",
+    "1972303105": "20260408-063421-ac-cpp.cpp"
+  }
+}

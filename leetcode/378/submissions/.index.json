@@ -1,0 +1,11 @@
+{
+  "slug": "kth-smallest-element-in-a-sorted-matrix",
+  "title": "Kth Smallest Element in a Sorted Matrix",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:49:36+00:00",
+  "files": {
+    "1937451039": "20260304-065257-ac-cpp.cpp",
+    "1937480922": "20260304-073221-ac-cpp.cpp",
+    "1937493154": "20260304-075003-ac-cpp.cpp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "longest-repeating-character-replacement",
+  "title": "Longest Repeating Character Replacement",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:53:38+00:00",
+  "files": {
+    "651261410": "20220301-135501-ac-python.py",
+    "651262174": "20220301-135649-ac-python.py",
+    "754179124": "20220723-032655-ac-javascript.js",
+    "834691641": "20221101-141451-ac-javascript.js",
+    "1124336271": "20231220-151836-ac-python.py",
+    "1387843608": "20240912-155854-ac-python3.py",
+    "1395328188": "20240919-103601-ac-python3.py",
+    "1395329882": "20240919-103843-ac-python3.py",
+    "1899757000": "20260128-124444-ac-cpp.cpp",
+    "1899814008": "20260128-134438-ac-cpp.cpp"
+  }
+}

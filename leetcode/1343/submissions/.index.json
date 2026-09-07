@@ -1,0 +1,10 @@
+{
+  "slug": "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
+  "title": "Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:52:06+00:00",
+  "files": {
+    "1125992284": "20231222-163007-ac-python.py",
+    "1916826000": "20260212-101241-ac-cpp.cpp"
+  }
+}

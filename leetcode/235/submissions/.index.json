@@ -1,0 +1,19 @@
+{
+  "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+  "title": "Lowest Common Ancestor of a Binary Search Tree",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:38:52+00:00",
+  "files": {
+    "655744054": "20220308-081032-ac-python.py",
+    "924836615": "20230330-135703-ac-javascript.js",
+    "924857893": "20230330-143932-ac-javascript.js",
+    "924899904": "20230330-155944-ac-javascript.js",
+    "1375339746": "20240901-120318-ac-python3.py",
+    "1375343751": "20240901-120816-ac-python3.py",
+    "1388385967": "20240913-044449-ac-python3.py",
+    "1794067817": "20251007-101405-ac-cpp.cpp",
+    "1994994179": "20260504-135400-ac-python.py",
+    "1995018659": "20260504-143001-ac-python.py",
+    "1995020894": "20260504-143305-ac-python.py"
+  }
+}

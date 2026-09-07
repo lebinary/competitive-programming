@@ -1,0 +1,9 @@
+{
+  "slug": "count-partitions-with-max-min-difference-at-most-k",
+  "title": "Count Partitions With Max-Min Difference at Most K",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T13:04:36+00:00",
+  "files": {
+    "1660941036": "20250611-150610-ac-cpp.cpp"
+  }
+}

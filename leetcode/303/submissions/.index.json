@@ -1,0 +1,11 @@
+{
+  "slug": "range-sum-query-immutable",
+  "title": "Range Sum Query - Immutable",
+  "difficulty": "Easy",
+  "synced_at": "2026-09-05T13:11:25+00:00",
+  "files": {
+    "1385748892": "20240910-183650-ac-python3.py",
+    "1385752217": "20240910-183955-ac-python3.py",
+    "1385754541": "20240910-184208-ac-python3.py"
+  }
+}

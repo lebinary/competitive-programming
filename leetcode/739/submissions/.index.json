@@ -1,0 +1,15 @@
+{
+  "slug": "daily-temperatures",
+  "title": "Daily Temperatures",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:58:00+00:00",
+  "files": {
+    "768469980": "20220808-143356-ac-javascript.js",
+    "839434418": "20221108-134447-ac-javascript.js",
+    "1131894807": "20231230-042010-ac-python.py",
+    "1382127188": "20240907-140605-ac-python3.py",
+    "1382128316": "20240907-140722-ac-python3.py",
+    "1817346902": "20251101-043754-ac-cpp.cpp",
+    "1871808171": "20260102-082048-ac-cpp.cpp"
+  }
+}

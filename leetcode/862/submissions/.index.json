@@ -1,0 +1,9 @@
+{
+  "slug": "shortest-subarray-with-sum-at-least-k",
+  "title": "Shortest Subarray with Sum at Least K",
+  "difficulty": "Hard",
+  "synced_at": "2026-09-05T12:51:03+00:00",
+  "files": {
+    "1923886926": "20260219-033233-ac-cpp.cpp"
+  }
+}

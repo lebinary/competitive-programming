@@ -1,0 +1,10 @@
+{
+  "slug": "reverse-integer",
+  "title": "Reverse Integer",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T13:05:08+00:00",
+  "files": {
+    "539469215": "20210816-171855-ac-csharp.cs",
+    "1653763595": "20250604-135124-ac-cpp.cpp"
+  }
+}

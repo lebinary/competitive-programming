@@ -1,0 +1,10 @@
+{
+  "slug": "lexicographically-smallest-string-after-adjacent-removals",
+  "title": "Lexicographically Smallest String After Adjacent Removals",
+  "difficulty": "Hard",
+  "synced_at": "2026-09-05T13:05:59+00:00",
+  "files": {
+    "1645037710": "20250526-140747-ac-cpp.cpp",
+    "1649615913": "20250531-094125-ac-cpp.cpp"
+  }
+}

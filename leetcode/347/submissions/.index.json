@@ -1,0 +1,16 @@
+{
+  "slug": "top-k-frequent-elements",
+  "title": "Top K Frequent Elements",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:55:45+00:00",
+  "files": {
+    "691651400": "20220502-145010-ac-javascript.js",
+    "824175254": "20221017-042944-ac-javascript.js",
+    "1371449770": "20240828-181443-ac-python.py",
+    "1371451682": "20240828-181622-ac-python.py",
+    "1395016949": "20240919-031531-ac-python3.py",
+    "1588061365": "20250327-120439-ac-python3.py",
+    "1888779554": "20260118-103313-ac-cpp.cpp",
+    "1888784644": "20260118-104007-ac-cpp.cpp"
+  }
+}

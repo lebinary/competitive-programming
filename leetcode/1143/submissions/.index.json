@@ -1,0 +1,11 @@
+{
+  "slug": "longest-common-subsequence",
+  "title": "Longest Common Subsequence",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T13:00:03+00:00",
+  "files": {
+    "649033023": "20220226-051241-ac-python.py",
+    "1446617314": "20241108-094245-ac-python3.py",
+    "1819561420": "20251103-131704-ac-cpp.cpp"
+  }
+}

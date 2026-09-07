@@ -1,0 +1,12 @@
+{
+  "slug": "remove-nth-node-from-end-of-list",
+  "title": "Remove Nth Node From End of List",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T13:07:21+00:00",
+  "files": {
+    "809847281": "20220927-144218-ac-javascript.js",
+    "1385359880": "20240910-124255-ac-python3.py",
+    "1385370160": "20240910-125451-ac-python3.py",
+    "1626934001": "20250506-112808-ac-cpp.cpp"
+  }
+}

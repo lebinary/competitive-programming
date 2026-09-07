@@ -1,0 +1,12 @@
+{
+  "slug": "single-threaded-cpu",
+  "title": "Single-Threaded CPU",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-05T12:39:26+00:00",
+  "files": {
+    "1631050960": "20250511-130748-ac-cpp.cpp",
+    "1631942108": "20250512-140828-ac-cpp.cpp",
+    "1991810266": "20260430-123940-ac-python.py",
+    "1991810434": "20260430-124000-ac-python.py"
+  }
+}
