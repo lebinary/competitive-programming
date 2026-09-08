@@ -19,3 +19,6 @@ submission
 
 # Generated single-file CSES submissions
 submit.cpp
+
+# Local OA practice - not tracked
+oa_practice/
