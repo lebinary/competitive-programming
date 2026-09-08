@@ -16,3 +16,6 @@ submission
 # Editor
 .vscode/
 .zed/
+
+# Generated single-file CSES submissions
+submit.cpp
