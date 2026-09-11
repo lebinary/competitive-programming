@@ -1,13 +1,18 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// CSES-specific notes:
-//  - Almost no CSES problem has a leading test-case count T. Read input directly.
+// Shared competitive-programming header. Works for any judge that accepts a
+// single pasted file; ./run.sh <dir> submit inlines this into submit.cpp.
+//
+// Notes:
 //  - Answers routinely overflow 32-bit, so `int` is aliased to long long below.
 //  - Many problems ask for the answer modulo 1e9+7; MOD and the mod helpers are
 //    here for those.
 //  - Input can be large (2e5..1e6 numbers). sync_with_stdio(false) is required;
 //    prefer '\n' over endl.
+//  - CSES problems are single-test-case, which is the default. Codeforces
+//    problems usually start with a test-case count T; for those, put
+//    `#define MULTI_TEST` above the #include "cp.h" in solution.cpp.
 
 #define int long long
 #define vi vector<int>
@@ -94,9 +99,14 @@ int32_t main() {
         cerr << "[local] no input.txt, reading stdin\n";
 #endif
 
-    // CSES: single test case. If a problem does start with T, uncomment:
-    // int T; cin >> T; while (T--) solve();
+#ifdef MULTI_TEST
+    int T;
+    cin >> T;
+    while (T--)
+        solve();
+#else
     solve();
+#endif
 
     return 0;
 }
