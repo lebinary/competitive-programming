@@ -1,0 +1,11 @@
+{
+  "slug": "number-of-longest-increasing-subsequence",
+  "title": "Number of Longest Increasing Subsequence",
+  "difficulty": "Medium",
+  "synced_at": "2026-09-18T19:19:23+00:00",
+  "files": {
+    "2144019331": "20260916-183246-ac-cpp.cpp",
+    "2145730641": "20260918-123921-ac-cpp.cpp",
+    "2146085620": "20260918-191356-ac-cpp.cpp"
+  }
+}
